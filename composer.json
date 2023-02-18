@@ -1,0 +1,29 @@
+{
+    "name": "moaj257/tmdb-api",
+    "description": "TMDB Api Wrapper",
+    "type": "library",
+    "require": {
+        "php" : ">=7.0",
+        "illuminate/support": ">=6.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moaj257\\TmdbApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "moaj257",
+            "email": "moaj257@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moaj257\\TmdbApi\\TmdbServiceProvider"
+            ]
+        }
+    }
+}

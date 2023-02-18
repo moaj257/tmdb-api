@@ -13,7 +13,7 @@ class TmdbServiceProvider extends ServiceProvider {
      */
     public function boot() {
         $this->mergeConfigFrom(__DIR__ . '/config/tmdb.php', 'tmdb');
-        $this->publishes([__DIR__.'/../config/tmdb.php' => config_path('tmdb.php')], 'tmdb-config');
+        $this->publishes([__DIR__.'/config/tmdb.php' => config_path('tmdb.php')], 'tmdb-config');
     }
 
     /** 
